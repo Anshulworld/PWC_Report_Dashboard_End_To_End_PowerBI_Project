@@ -90,23 +90,30 @@ CALCULATE(
 ```
 
 ## Key Insights & Business Takeaways
-1. Call Volume Trends: Call traffic peaks during mid-day hours (11:00 AM – 2:00 PM). Shift scheduling should be adjusted to minimize wait times during these windows.
-2. Resolution vs. Satisfaction: Faster speed of answer strongly correlates with higher CSAT scores (ratings of 4 and 5).
-3. Agent Performance: While overall resolution rates remain healthy (>70%), individual variance in average handle time indicates opportunities for targeted coaching.
+1. Peak Inbound Hours: Incoming call volume surges between 10:00 AM and 2:00 PM. Deploying staggered shifts during     these midday hours will reduce call queues and lower abandonment rates.
+2. Speed of Answer vs. CSAT: Callers experiencing answer speeds under 30 seconds consistently submit satisfaction      scores >= 4, whereas hold times exceeding 60 seconds exhibit a steep drop in positive sentiment.
+3. Topic Concentration: Technical Support and Contract Admin account for the highest proportion of call volume and      talk time, pinpointing areas where self-service portal FAQs or automated IVR routing would yield maximum impact.
+4. Agent Performance Variance: While individual resolution rates consistently sit above 70%, talk duration varies      significantly across agents for similar topics, suggesting opportunities for standardized call-handling training.
 
-## Respository Structure
+   
+## Repository Structure
 
-├── 01 Call-Center-Dataset.csv              # Raw customer call transactional data
-├── PWC Reports.pbix                         # Complete Power BI report and data model
-├── PWC Report Dashboard Screenshot.png      # High-resolution dashboard capture
-├── PWC Report DashBoard VIdeo.mp4          # Dashboard demonstration walkthrough
-├── Logo-pwc.png                             # Branding asset
-├── color palette.png                        # Dashboard color scheme guide
+├── 01 Call-Center-Dataset.csv               # Raw customer call dataset
+├── PWC Reports.pbix                         # Power BI Desktop report with data model & DAX
+├── PWC Report Dashboard Screenshot.png      # Dashboard preview image
+├── PWC Report DashBoard VIdeo.mp4           # Interactive dashboard walkthrough recording
+├── Logo-pwc.png                             # PwC simulation branding asset
+├── color palette.png                        # Report color palette reference
 └── README.md                                # Project documentation
 
-## How to Explore
+## Installation & Usage
 1. Clone or download this repository:
   git clone [https://github.com/Anshulworld/PWC_Report_Dashboard_End_To_End_PowerBI_Project.git](https://github.com/Anshulworld/PWC_Report_Dashboard_End_To_End_PowerBI_Project.git)
-2. Open PWC Reports.pbix in Power BI Desktop.
-3. If prompted to refresh data, verify the data source path points to your local copy of 01 Call-Center-Dataset.csv
 
+3. Open PWC Reports.pbix in Power BI Desktop.
+
+4. Data Source Configuration:
+
+ a. If prompted by Power BI Desktop to refresh the data source, navigate to Home > Transform Data > Data Source         Settings.
+
+ b. Update the file path to point to your local clone of 01 Call-Center-Dataset.csv.
