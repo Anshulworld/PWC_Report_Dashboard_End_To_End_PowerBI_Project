@@ -87,6 +87,7 @@ CALCULATE(
     AVERAGE('Call-Center-Dataset'[Satisfaction rating]),
     'Call-Center-Dataset'[Satisfaction rating] > 0
 )
+```
 
 ## Key Insights & Business Takeaways
 1. Call Volume Trends: Call traffic peaks during mid-day hours (11:00 AM – 2:00 PM). Shift scheduling should be adjusted to minimize wait times during these windows.
