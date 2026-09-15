@@ -98,6 +98,7 @@ CALCULATE(
    
 ## Repository Structure
 
+``` structure
 ├── 01 Call-Center-Dataset.csv               # Raw customer call dataset
 ├── PWC Reports.pbix                         # Power BI Desktop report with data model & DAX
 ├── PWC Report Dashboard Screenshot.png      # Dashboard preview image
@@ -105,6 +106,7 @@ CALCULATE(
 ├── Logo-pwc.png                             # PwC simulation branding asset
 ├── color palette.png                        # Report color palette reference
 └── README.md                                # Project documentation
+```
 
 ## Installation & Usage
 1. Clone or download this repository:
