@@ -87,3 +87,25 @@ CALCULATE(
     AVERAGE('Call-Center-Dataset'[Satisfaction rating]),
     'Call-Center-Dataset'[Satisfaction rating] > 0
 )
+
+## Key Insights & Business Takeaways
+1. Call Volume Trends: Call traffic peaks during mid-day hours (11:00 AM – 2:00 PM). Shift scheduling should be adjusted to minimize wait times during these windows.
+2. Resolution vs. Satisfaction: Faster speed of answer strongly correlates with higher CSAT scores (ratings of 4 and 5).
+3. Agent Performance: While overall resolution rates remain healthy (>70%), individual variance in average handle time indicates opportunities for targeted coaching.
+
+## Respository Structure
+
+├── 01 Call-Center-Dataset.csv              # Raw customer call transactional data
+├── PWC Reports.pbix                         # Complete Power BI report and data model
+├── PWC Report Dashboard Screenshot.png      # High-resolution dashboard capture
+├── PWC Report DashBoard VIdeo.mp4          # Dashboard demonstration walkthrough
+├── Logo-pwc.png                             # Branding asset
+├── color palette.png                        # Dashboard color scheme guide
+└── README.md                                # Project documentation
+
+## How to Explore
+1. Clone or download this repository:
+  git clone [https://github.com/Anshulworld/PWC_Report_Dashboard_End_To_End_PowerBI_Project.git](https://github.com/Anshulworld/PWC_Report_Dashboard_End_To_End_PowerBI_Project.git)
+2. Open PWC Reports.pbix in Power BI Desktop.
+3. If prompted to refresh data, verify the data source path points to your local copy of 01 Call-Center-Dataset.csv
+
